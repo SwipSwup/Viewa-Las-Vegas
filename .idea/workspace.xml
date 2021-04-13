@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10d8f559-29f0-4570-9aef-cf5524f8a384" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/tooplate-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qr-link-tooplate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hotel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/hotelTemplate.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1r7B2tqVpwDB3vRIHr09juScUwg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../videogame-ost-cover-service" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Viewa Las Vegas" />
+      <recent name="C:\xampp\htdocs\Viewa Las Vegas\js" />
+      <recent name="C:\xampp\htdocs\Viewa Las Vegas\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10d8f559-29f0-4570-9aef-cf5524f8a384" name="Default Changelist" comment="" />
+      <created>1618317044004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618317044004</updated>
+      <workItem from="1618317045043" duration="6392000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="294" key="FileChooserDialogImpl" timestamp="1618320851674">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1060" y="294" key="FileChooserDialogImpl/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1618320851674" />
+    <state x="1087" y="266" key="NewPhpClassDialog" timestamp="1618318708864">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1087" y="266" key="NewPhpClassDialog/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1618318708864" />
+    <state x="481" y="464" key="NewPhpFileDialog" timestamp="1618317286796">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="481" y="464" key="NewPhpFileDialog/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1618317286796" />
+    <state x="781" y="184" key="SettingsEditor" timestamp="1618318302683">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="781" y="184" key="SettingsEditor/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1618318302683" />
+    <state x="936" y="250" key="run.anything.popup" timestamp="1618319241685">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="936" y="250" key="run.anything.popup/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1618319241685" />
+    <state x="943" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1618317813315">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="943" y="235" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1618317813315" />
+  </component>
+</project>
