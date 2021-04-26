@@ -1,0 +1,12 @@
+#my-card{
+    margin: 2%;
+}
+#my-img{
+    width: 250px;
+    margin-right: 2%;
+}
+#my-content{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}

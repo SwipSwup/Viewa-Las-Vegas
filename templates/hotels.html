@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="src/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css"/>
+    <title>Viewa Las Vegas</title>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand">Viewa Las Vegas</a>
+    </div>
+</nav>
+{% for hotel in hotels %}
+<div class="card" id="my-card">
+    <div class="card-body" id="my-content">
+        <img src="{{hotel.getImg()|e}}" id="my-img">
+        <div>
+            <h5 class="card-title">{{hotel.getName()|e}}</h5>
+            <p class="card-text">
+                {{hotel.getDsc()|e}}
+                <br>
+                <b>Adress: </b> {{hotel.getAdr()|e}}
+            </p>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+</body>
+</html>
