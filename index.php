@@ -1,25 +1,34 @@
 <?php
 require_once "./src/Hotel.php";
 
+//$hotels = [
+//    new Hotel(
+//        "Caesars Palace",
+//        "Arguably THE most famous of all of the hotels in Las Vegas, Caesars Palace is home to a 12,000 square metre casino and a host of celebrity owned restaurants.",
+//        "3570 S Las Vegas Blvd, Las Vegas, NV 89109, United States",
+//        "https://www.americanholidays.com/app/uploads/2017/02/most-famous-hotels-in-las-vegas-4.jpg"
+//    ),
+//    new Hotel(
+//        "MGM Grand",
+//        "Well known for housing Conor McGregor’s UFC bouts, the MGM grand has a prime location on the strip and is perfect for groups.",
+//        "3799 S Las Vegas Blvd, Las Vegas, NV 89109, United States",
+//        "https://www.americanholidays.com/app/uploads/2017/02/most-famous-hotels-in-las-vegas-1.jpg"
+//    ),
+//    new Hotel(
+//        "New York New York",
+//        "When it comes to eye-catching hotel engineering, New York New York has it nailed. For this reason, it makes my list of the most famous hotels in Las Vegas!",
+//        "3790 S Las Vegas Blvd, Las Vegas, NV 89109, United States",
+//        "https://www.americanholidays.com/app/uploads/2017/02/most-famous-hotels-in-las-vegas.jpg"
+//    ),
+//];
+
 $hotels = [
     new Hotel(
         "Caesars Palace",
         "Arguably THE most famous of all of the hotels in Las Vegas, Caesars Palace is home to a 12,000 square metre casino and a host of celebrity owned restaurants.",
         "3570 S Las Vegas Blvd, Las Vegas, NV 89109, United States",
-        "https://www.americanholidays.com/app/uploads/2017/02/most-famous-hotels-in-las-vegas-4.jpg"
-    ),
-    new Hotel(
-        "MGM Grand",
-        "Well known for housing Conor McGregor’s UFC bouts, the MGM grand has a prime location on the strip and is perfect for groups.",
-        "3799 S Las Vegas Blvd, Las Vegas, NV 89109, United States",
         "https://www.americanholidays.com/app/uploads/2017/02/most-famous-hotels-in-las-vegas-1.jpg"
-    ),
-    new Hotel(
-        "New York New York",
-        "When it comes to eye-catching hotel engineering, New York New York has it nailed. For this reason, it makes my list of the most famous hotels in Las Vegas!",
-        "3790 S Las Vegas Blvd, Las Vegas, NV 89109, United States",
-        "https://www.americanholidays.com/app/uploads/2017/02/most-famous-hotels-in-las-vegas.jpg"
-    ),
+    )
 ];
 
 function readTemplate(string $path): string
@@ -35,11 +44,7 @@ function prepareTemplate(Hotel $hotel): string {
     $template = str_replace("##title##", $hotel->getName(), $template);
     $template = str_replace("##dsc##", $hotel->getDsc(), $template);
     $template = str_replace("##adr##", $hotel->getAdr(), $template);
-    $template .= "
-<div class=\"item\" data-desktop-seq-no=\"2\" data-mobile-seq-no=\"1\">
-    <img src=\"{$hotel->getImg()}\" alt=\"Image\">
-</div>
-";
+    $template = str_replace("##img##", $hotel->getImg(), $template);
     return $template;
 }
 ?>
