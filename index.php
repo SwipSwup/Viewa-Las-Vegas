@@ -58,14 +58,8 @@ function prepareTemplate(Hotel $hotel): string {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Character Responsive HTML5 Template</title>
-    <!--
-    Template 2110 Character
-    http://www.tooplate.com/view/2110-character
-    -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
-    <!-- https://fonts.google.com/specimen/Open+Sans -->
     <link rel="stylesheet" href="css/all.min.css">
-    <!-- https://fontawesome.com/ -->
     <link rel="stylesheet" href="css/tooplate-style.css">
 </head>
 
@@ -78,7 +72,6 @@ function prepareTemplate(Hotel $hotel): string {
     ?>
 </main>
 <script src="js/jquery-3.3.1.min.js"></script>
-<!-- https://jquery.com/download/ -->
 <script>
 
     let callAdjustLayout;
